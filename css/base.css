@@ -1,0 +1,30 @@
+.cabecalho{
+    background-color:#ffff99;
+    margin: 0%;
+    padding: 15px;
+}
+.cabecalho h1{
+    color: darkgrey;
+}
+  
+.navegation li {
+    float: left;
+}
+.navegation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgoldenrod;
+    
+  }
+  
+.navegation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-left: 45%;
+  }
+      
