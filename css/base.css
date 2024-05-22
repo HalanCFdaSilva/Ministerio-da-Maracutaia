@@ -1,5 +1,8 @@
-.cabecalho{
+.cabecalho, .rodape{
     background-color:#ffff99;
+    margin: 0%;
+}
+.cabecalho{
     margin: 0%;
     padding: 15px;
 }
@@ -7,24 +10,42 @@
     color: darkgrey;
 }
   
-.navegation li {
-    float: left;
-}
-.navegation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+
+.navegation div {
+
     background-color: darkgoldenrod;
+    margin-bottom: 2px;
     
   }
-  
-.navegation li a {
-    display: block;
+.navegation div a {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    padding-left: 45%;
+    padding: 14px;
+    display: inline-block;
+    border-right: 1px solid black ;
   }
-      
+
+  .vl {
+    border-left: 6px solid green;
+    height: 500px;
+  }      
+
+  aside{ 
+    width: 30%;
+    float: right;
+
+}
+
+article{
+    width: 70%;
+    float: left;
+}
+
+.rodape h4{
+    text-decoration: solid;
+    text-decoration-line: underline;
+}
+
+#empire_slogan{
+    font-size:smaller;
+}
+  
