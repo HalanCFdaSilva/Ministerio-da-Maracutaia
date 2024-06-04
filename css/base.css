@@ -1,6 +1,6 @@
 .cabecalho, .rodape{
     background-color:#ffff99;
-    margin: 0%;
+    border: none;
 }
 .cabecalho{
     margin: 0%;
@@ -17,35 +17,39 @@
     margin-bottom: 2px;
     
   }
-.navegation div a {
+  
+.container .navegation div a {
     color: white;
     padding: 14px;
     display: inline-block;
     border-right: 1px solid black ;
   }
 
-  .vl {
-    border-left: 6px solid green;
-    height: 500px;
-  }      
+.container .navegation div a:hover{
+    text-decoration: underline;
+}  
 
-  aside{ 
-    width: 30%;
+
+aside{ 
     float: right;
 
 }
 
 article{
-    width: 70%;
+    border-right: 6px solid green;
     float: left;
 }
 
 .rodape h4{
     text-decoration: solid;
     text-decoration-line: underline;
+    font-size: larger;
+    margin: 0%;
 }
 
 #empire_slogan{
     font-size:smaller;
+    margin: 0%;
+    float: left;
 }
   
