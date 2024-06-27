@@ -1,0 +1,17 @@
+.rodape{
+    background-color: darkgoldenrod;
+    padding-bottom: 3%;
+}
+.rodape h4{
+    text-decoration: solid;
+    text-decoration-line: underline;
+    font-size: larger;
+    margin: 0%;
+}
+
+#empire_slogan{
+    font-size:smaller;
+    margin: 0%;
+    float: left;
+    
+}
